@@ -1,0 +1,34 @@
+{
+  "modules": [
+    {
+      "id": "letters", "title": "Letters", "subtitle": "Meet a few friendly letters", "icon": "🔤", "color": "#DDF4EE", "type": "choice",
+      "lessons": [
+        { "prompt": "Find the letter A", "hint": "A says ah, like apple.", "options": ["A", "M", "S"], "answer": "A" },
+        { "prompt": "Find the letter B", "hint": "B begins the word ball.", "options": ["D", "B", "R"], "answer": "B" },
+        { "prompt": "Find the letter C", "hint": "C begins the word cat.", "options": ["G", "C", "P"], "answer": "C" }
+      ]
+    },
+    {
+      "id": "numbers", "title": "Numbers", "subtitle": "Count little things", "icon": "🔢", "color": "#E3EEFF", "type": "choice",
+      "lessons": [
+        { "prompt": "How many stars?  ⭐ ⭐ ⭐", "hint": "Count each star slowly.", "options": ["2", "3", "4"], "answer": "3" },
+        { "prompt": "How many dots?  🟠 🟠", "hint": "Touch each orange dot as you count.", "options": ["1", "2", "5"], "answer": "2" },
+        { "prompt": "What comes after 4?", "hint": "Count up: 3, 4…", "options": ["3", "5", "7"], "answer": "5" }
+      ]
+    },
+    {
+      "id": "tracing", "title": "Trace", "subtitle": "Draw a letter with your finger", "icon": "✏️", "color": "#FFF0CF", "type": "trace",
+      "lessons": [
+        { "prompt": "Trace the letter A", "hint": "Start at the top and follow the dotted path.", "options": [], "answer": "A" }
+      ]
+    },
+    {
+      "id": "matching", "title": "Match", "subtitle": "Pair pictures and words", "icon": "🧩", "color": "#F7E4F4", "type": "choice",
+      "lessons": [
+        { "prompt": "Which one is the sun?", "hint": "The sun shines in the sky.", "options": ["🌙 moon", "☀️ sun", "🌧️ rain"], "answer": "☀️ sun" },
+        { "prompt": "Which one is a fish?", "hint": "A fish swims in water.", "options": ["🐟 fish", "🐦 bird", "🐸 frog"], "answer": "🐟 fish" },
+        { "prompt": "Which one is a tree?", "hint": "A tree has a trunk and leaves.", "options": ["🌷 flower", "🌳 tree", "🍄 mushroom"], "answer": "🌳 tree" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+.gradle/
+local.properties
+**/build/
+.kotlin/
+.idea/
+*.iml
+.DS_Store
+
+# Craft Anything local project state and agent logs
+craft.json
+build-activity.log
+feed.json
+usage.json
+capture/
+inbox/
+investigation.cany/
